@@ -1,0 +1,4 @@
+baseURL = "http://2sheds.github.io/devops-site"
+languageCode = "en-us"
+title = "My Devops Site"
+theme = "ananke"
