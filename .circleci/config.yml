@@ -8,7 +8,7 @@ jobs:
       - image: cibuilds/hugo:latest
     working_directory: ~/hugo
     environment:
-      HUGO_BUILD_DIR: public
+      HUGO_BUILD_DIR: ~/hugo/public
     steps:
       # install git
       - run: apk update && apk add git
@@ -19,8 +19,8 @@ jobs:
       # Link the public dir to the gh-pages branch
       - run: rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages
       # build with Hugo
-      - run: pwd && ls -Rl && HUGO_ENV=production hugo -v -d "$HUGO_BUILD_DIR"
+      - run: ls -Rl && echo ${HUGO_BUILD_DIR} && HUGO_ENV=production hugo -v -d ${HUGO_BUILD_DIR}
       # Set some variables to add to the commit message
       - run: git config --global user.email "oleg@kurapov.com" && git config --global user.name "CircleCI Bot"
       # Push the generated files back to github
-      - run: ls -Rl && cd $HUGO_BUILD_DIR && pwd && git add --all && git commit -m "Automated publish to gh-pages [ci skip]" && git push
+      - run: cd $HUGO_BUILD_DIR && git add --all && git commit -m "Automated publish to gh-pages [ci skip]" && git push
