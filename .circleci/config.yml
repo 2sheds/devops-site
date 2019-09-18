@@ -6,9 +6,9 @@ jobs:
         - gh-pages
     docker:
       - image: cibuilds/hugo:latest
-    working_directory: ~/devops-site
+    working_directory: ~/hugo/
     environment:
-      HUGO_BUILD_DIR: ~/devops-site/public
+      HUGO_BUILD_DIR: ~/hugo/public/
     steps:
       # install git
       - run: apk update && apk add git
@@ -17,9 +17,9 @@ jobs:
       # install git submodules for managing third-party dependencies
       - run: git submodule sync && git submodule update --init
       # Link the public dir to the gh-pages branch
-      - run: rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages public origin/gh-pages && ls -R
+      - run: rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages && ls -R
       # build with Hugo
-      - run: cd hugo && HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
       # Set some variables to add to the commit message
       - run: git config --global user.email "oleg@kurapov.com" && git config --global user.name "CircleCI Bot"
       # Push the generated files back to github
