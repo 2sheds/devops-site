@@ -8,7 +8,7 @@ jobs:
       - image: cibuilds/hugo:latest
     working_directory: ~/devops-site
     environment:
-      HUGO_BUILD_DIR: ~/devops-site/public
+      HUGO_BUILD_DIR: $HOME/devops-site/public
     steps:
       # install git
       - run: apk update && apk add git
@@ -19,7 +19,7 @@ jobs:
       # Link the public dir to the gh-pages branch
       - run: rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages && ls -R
       # build with Hugo
-      - run: HUGO_ENV=production hugo -v -d HUGO_BUILD_DIR
+      - run: cd hugo && HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
       # Set some variables to add to the commit message
       - run: git config --global user.email "oleg@kurapov.com" && git config --global user.name "CircleCI Bot"
       # Push the generated files back to github
