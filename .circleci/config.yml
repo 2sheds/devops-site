@@ -6,9 +6,9 @@ jobs:
         - gh-pages
     docker:
       - image: cibuilds/hugo:latest
-    working_directory: ~/
+    working_directory: ~/devops-site
     environment:
-      HUGO_BUILD_DIR: ~/hugo/public
+      HUGO_BUILD_DIR: ~/devops-site/public
     steps:
       # install git
       - run: apk update && apk add git
