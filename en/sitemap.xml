@@ -3,22 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/</loc>
-    <lastmod>2019-09-27T17:23:40+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/"
-                />
-  </url>
-  
-  <url>
     <loc>https://2sheds.github.io/devops-site/categories/</loc>
     <lastmod>2019-09-27T17:23:40+01:00</lastmod>
     <xhtml:link
@@ -51,6 +35,21 @@
   <url>
     <loc>https://2sheds.github.io/devops-site/categories/devops/</loc>
     <lastmod>2019-09-27T17:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/</loc>
+    <lastmod>2019-09-27T17:23:40+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/"
+                />
   </url>
   
   <url>
@@ -114,12 +113,12 @@
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/quote/</loc>
+    <loc>https://2sheds.github.io/devops-site/categories/quotes/</loc>
     <lastmod>2019-09-25T15:36:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/categories/quotes/</loc>
+    <loc>https://2sheds.github.io/devops-site/quote/</loc>
     <lastmod>2019-09-25T15:36:10+01:00</lastmod>
   </url>
   
