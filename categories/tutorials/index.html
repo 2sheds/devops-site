@@ -146,9 +146,35 @@
         <p>You will find all information to setup this theme with your hugo site
 on the official <br> <a href="https://github.com/Lednerb/bilberry-hugo-theme">Github Repository</a>.</p>
 
-        
-            <a href="https://2sheds.github.io/devops-site/code/installing-bilberry-theme/" class="more">Continue reading</a>
-        
+<p><strong>If you want to install this theme, follow these steps:</strong></p>
+
+<ul>
+<li><p>Install Hugo and create a new site:</p>
+
+<pre><code class="language-sh">hugo new site my-new-blog
+</code></pre></li>
+
+<li><p>Switch to your <code>theme</code> folder and import the latest version of the Bilberry Theme</p>
+
+<pre><code class="language-sh">cd my-new-blog/themes
+git clone https://github.com/Lednerb/bilberry-hugo-theme.git
+</code></pre></li>
+
+<li><p>Copy the example content to your new site</p>
+
+<pre><code class="language-sh">cp -r bilberry-hugo-theme/exampleSite/* ../
+</code></pre></li>
+
+<li><p>Test the installation</p>
+
+<pre><code class="language-sh">cd ../
+hugo server -D
+</code></pre></li>
+
+<li><p>Configure the <code>config.toml</code> file according to your needs</p></li>
+
+<li><p>Start blogging</p></li>
+</ul>
     
 </div>
 
