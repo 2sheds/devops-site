@@ -3,8 +3,8 @@ title: "DevOps Radio Episode 18: Meet Patrick Debois, the Father of DevOps"
 date: 2017-05-09T16:12:47+01:00
 
 featuredImage: ""
-categories: ['Podcat', 'DevOps']
-tags: ['interview']
+categories: ['DevOps']
+tags: ['interview', 'podcast']
 
 # Set your audio url for
 spotify:    "spotify:episode:2l2Zm2FxHbTBnciim3m6is"
