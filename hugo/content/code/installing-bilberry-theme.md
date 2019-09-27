@@ -7,7 +7,7 @@ tags: ['Hugo', 'Bilberry Theme']
 author: "Lednerb"
 ---
 You will find all information to setup this theme with your hugo site
-on the official <br> [Github Repository](https://github.com/Lednerb/bilberry-hugo-theme).
+on the official [Github Repository](https://github.com/Lednerb/bilberry-hugo-theme).
 
 <!--more-->
 
