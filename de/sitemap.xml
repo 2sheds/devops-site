@@ -3,81 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/de/author/albert-einstein/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/quote/einstein-sinn-des-lebens/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/author/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/author/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/author/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/categories/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/quote/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/quote/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/quote/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/categories/zitate/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://2sheds.github.io/devops-site/de/article/</loc>
     <lastmod>2017-11-01T18:10:14+01:00</lastmod>
     <xhtml:link
@@ -89,6 +14,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://2sheds.github.io/devops-site/de/article/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/de/author/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/author/"
                 />
   </url>
   
@@ -119,6 +59,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://2sheds.github.io/devops-site/de/author/lednerb/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/de/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/"
                 />
   </url>
   
@@ -169,6 +124,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://2sheds.github.io/devops-site/de/article/support-and-discussions/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/de/categories/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/categories/"
                 />
   </url>
   

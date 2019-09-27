@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://2sheds.github.io/devops-site/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -15,6 +15,86 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://2sheds.github.io/devops-site/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/author/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/author/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/categories/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/delivery/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/categories/devops/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/organization/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/quote/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/categories/quotes/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/author/stein-inge-morisbak/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/quote/roles-delivery/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/tags/"
                 />
   </url>
   
@@ -30,21 +110,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://2sheds.github.io/devops-site/article/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/author/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/author/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/author/"
                 />
   </url>
   
@@ -114,21 +179,6 @@
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/tags/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://2sheds.github.io/devops-site/gallery/</loc>
     <lastmod>2017-11-01T18:01:26+01:00</lastmod>
     <priority>0</priority>
@@ -141,21 +191,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://2sheds.github.io/devops-site/gallery/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/categories/</loc>
-    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/categories/"
                 />
   </url>
   
@@ -390,37 +425,22 @@
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/author/edward-snowden/</loc>
+    <loc>https://2sheds.github.io/devops-site/tags/automation/</loc>
     <lastmod>2017-11-01T13:01:14+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/quote/edward-snowden-privacy/</loc>
+    <loc>https://2sheds.github.io/devops-site/tags/developers/</loc>
     <lastmod>2017-11-01T13:01:14+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/tags/free-speech/</loc>
+    <loc>https://2sheds.github.io/devops-site/author/scott-hanselman/</loc>
     <lastmod>2017-11-01T13:01:14+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/quote/</loc>
-    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/quote/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/quote/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/categories/society/</loc>
+    <loc>https://2sheds.github.io/devops-site/quote/developers-automation/</loc>
     <lastmod>2017-11-01T13:01:14+01:00</lastmod>
   </url>
   

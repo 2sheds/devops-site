@@ -5,10 +5,19 @@
     <link>https://2sheds.github.io/devops-site/author/</link>
     <description>Recent content in Author on DevOps Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Nov 2017 18:10:14 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Dec 2017 14:40:32 +0100</lastBuildDate>
     
 	<atom:link href="https://2sheds.github.io/devops-site/author/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stein Inge Morisbak</title>
+      <link>https://2sheds.github.io/devops-site/author/stein-inge-morisbak/</link>
+      <pubDate>Fri, 01 Dec 2017 14:40:32 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/author/stein-inge-morisbak/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Lednerb</title>
@@ -20,11 +29,11 @@
     </item>
     
     <item>
-      <title>Edward Snowden</title>
-      <link>https://2sheds.github.io/devops-site/author/edward-snowden/</link>
+      <title>Scott Hanselman</title>
+      <link>https://2sheds.github.io/devops-site/author/scott-hanselman/</link>
       <pubDate>Wed, 01 Nov 2017 13:01:14 +0100</pubDate>
       
-      <guid>https://2sheds.github.io/devops-site/author/edward-snowden/</guid>
+      <guid>https://2sheds.github.io/devops-site/author/scott-hanselman/</guid>
       <description></description>
     </item>
     
