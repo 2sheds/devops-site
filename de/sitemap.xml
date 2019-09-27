@@ -3,23 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/de/article/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/article/"
-                />
-  </url>
-  
-  <url>
     <loc>https://2sheds.github.io/devops-site/de/author/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -33,103 +17,7 @@
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/discord/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/tags/discord/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/tags/discord/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/author/lednerb/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/author/lednerb/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/author/lednerb/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/sag-danke/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/support/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/tags/support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/tags/support/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/article/support-and-discussions/</loc>
-    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/article/support-and-discussions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/article/support-and-discussions/"
-                />
-  </url>
-  
-  <url>
     <loc>https://2sheds.github.io/devops-site/de/categories/</loc>
-    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -143,177 +31,30 @@
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/eilean-donan-castle/</loc>
-    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+    <loc>https://2sheds.github.io/devops-site/de/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://2sheds.github.io/devops-site/tags/eilean-donan-castle/"
+                href="https://2sheds.github.io/devops-site/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/tags/eilean-donan-castle/"
+                href="https://2sheds.github.io/devops-site/de/"
                 />
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/de/gallery/</loc>
-    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+    <loc>https://2sheds.github.io/devops-site/de/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://2sheds.github.io/devops-site/gallery/"
+                href="https://2sheds.github.io/devops-site/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/gallery/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/glennfinnan-viadukt/</loc>
-    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/gallery/my-trip-to-scotland/</loc>
-    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/gallery/my-trip-to-scotland/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/gallery/my-trip-to-scotland/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/categories/reise/</loc>
-    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/schottland/</loc>
-    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/categories/urlaub/</loc>
-    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/audio/</loc>
-    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/audio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/audio/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/kilez-more/</loc>
-    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/tags/kilez-more/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/tags/kilez-more/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/audio/kilez-more-new-world-order/</loc>
-    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/audio/kilez-more-new-world-order/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/audio/kilez-more-new-world-order/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/categories/musik/</loc>
-    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/truth-rap/</loc>
-    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/tags/truth-rap/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/tags/truth-rap/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/page/</loc>
-    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/page/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/page/about-bilberry/</loc>
-    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/page/about-bilberry/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/page/about-bilberry/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/page/github/</loc>
-    <lastmod>2017-11-01T13:17:56+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/page/github/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/page/github/"
+                href="https://2sheds.github.io/devops-site/de/tags/"
                 />
   </url>
   
