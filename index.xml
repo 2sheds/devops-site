@@ -28,15 +28,6 @@
     </item>
     
     <item>
-      <title>Audios</title>
-      <link>https://2sheds.github.io/devops-site/audio/</link>
-      <pubDate>Wed, 01 Nov 2017 16:12:47 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/audio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Links</title>
       <link>https://2sheds.github.io/devops-site/link/</link>
       <pubDate>Wed, 01 Nov 2017 13:05:27 +0100</pubDate>
@@ -51,6 +42,15 @@
       <pubDate>Wed, 01 Nov 2017 09:31:27 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audios</title>
+      <link>https://2sheds.github.io/devops-site/audio/</link>
+      <pubDate>Tue, 09 May 2017 16:12:47 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/audio/</guid>
       <description></description>
     </item>
     

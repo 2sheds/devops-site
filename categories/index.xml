@@ -38,15 +38,6 @@
     </item>
     
     <item>
-      <title>Music</title>
-      <link>https://2sheds.github.io/devops-site/categories/music/</link>
-      <pubDate>Wed, 01 Nov 2017 16:12:47 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/categories/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Privacy</title>
       <link>https://2sheds.github.io/devops-site/categories/privacy/</link>
       <pubDate>Wed, 01 Nov 2017 13:05:27 +0100</pubDate>
@@ -70,6 +61,15 @@
       <pubDate>Wed, 01 Nov 2017 09:31:27 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcat</title>
+      <link>https://2sheds.github.io/devops-site/categories/podcat/</link>
+      <pubDate>Tue, 09 May 2017 16:12:47 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/categories/podcat/</guid>
       <description></description>
     </item>
     

@@ -46,5 +46,14 @@
       <description>The most powerful tool we have as developers is automation.</description>
     </item>
     
+    <item>
+      <title>DevOps Radio Episode 18: Meet Patrick Debois, the Father of DevOps</title>
+      <link>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</link>
+      <pubDate>Tue, 09 May 2017 16:12:47 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</guid>
+      <description>In this episode of DevOps Radio, Patrick Debois, CTO of Small Town Heroes and founder of DevOps Days, discusses his vision behind the unification of IT teams through DevOps and the worldwide growth of this cultural IT phenomenon.</description>
+    </item>
+    
   </channel>
 </rss>
