@@ -1,5 +1,5 @@
-title = "My cool new Blog"
-# Add an trailing slash to ensure that all fonts render correctly.
+title = "DevOps Website"
+# Add a trailing slash to ensure that all fonts render correctly.
 baseURL = "https://2sheds.github.io/devops-site/"
 theme = "bilberry-hugo-theme"
 
@@ -30,8 +30,8 @@ disqusShortname = "bilberry-hugo-theme"
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
-  description = "Bilberry Premium Theme for Hugo."
+  author = "Oleg Kurapov"
+  description = "Agile web hosting with GitHub Pages."
   keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
 
   # How many articles should be displayed at once?
@@ -109,24 +109,24 @@ disqusShortname = "bilberry-hugo-theme"
     showSocialMedia = true
 
     facebook   = ""
-    twitter    = "https://twitter.com/TheRealLednerb"
+    twitter    = ""
     googleplus = ""
     pinterest  = ""
     instagram  = ""
     tumblr     = ""
     youtube    = ""
     vimeo      = ""
-    github     = "https://github.com/Lednerb"
+    github     = "https://github.com/2sheds/devops-site"
     xing       = ""
     linkedin   = ""
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
-    copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
-    creditsText = "Bilberry Hugo Theme"
-    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
+    copyrightBy = "by Oleg Kurapov"
+    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+    # copyrightYearOverride = "2017"
+    copyrightUrl = "https://github.com/2sheds"
+    creditsText = "Oleg Kurapov"
+    creditsUrl = "https://github.com/2sheds"
 
 
 # customize your available languages for your multi-langual site
