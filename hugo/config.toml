@@ -57,10 +57,10 @@ disqusShortname = "bilberry-hugo-theme"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Hello World! This is the most epic subtitle ever."
+    subtitle = "Agile web hosting with GitHub Pages."
 
     # if you want to use gravatar for the header image
-    gravatarEMail = "code@lednerb.de"
+    gravatarEMail = "ok@2sheds.ru"
 
     # set an path to the image file you want to use | overwrites gravatar
     customImage = ""
