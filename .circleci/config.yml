@@ -7,8 +7,8 @@ jobs:
     docker:
       - image: cibuilds/hugo:latest
     working_directory: ~/hugo
-    #environment:
-      #HUGO_BUILD_DIR: ~/hugo/public/
+    environment:
+      HUGO_BUILD_DIR: /root/hugo/public/
     steps:
       - run: 
           name: "Install git" 
