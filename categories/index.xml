@@ -5,7 +5,7 @@
     <link>https://2sheds.github.io/devops-site/categories/</link>
     <description>Recent content in Categories on DevOps Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Dec 2017 14:40:32 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2019 17:23:40 +0100</lastBuildDate>
     
 	<atom:link href="https://2sheds.github.io/devops-site/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,9 +13,18 @@
     <item>
       <title>DevOps</title>
       <link>https://2sheds.github.io/devops-site/categories/devops/</link>
-      <pubDate>Fri, 01 Dec 2017 14:40:32 +0100</pubDate>
+      <pubDate>Fri, 27 Sep 2019 17:23:40 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>https://2sheds.github.io/devops-site/categories/video/</link>
+      <pubDate>Fri, 27 Sep 2019 17:23:40 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/categories/video/</guid>
       <description></description>
     </item>
     
@@ -49,27 +58,9 @@
     <item>
       <title>Music</title>
       <link>https://2sheds.github.io/devops-site/categories/music/</link>
-      <pubDate>Wed, 01 Nov 2017 16:23:40 +0100</pubDate>
+      <pubDate>Wed, 01 Nov 2017 16:12:47 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/categories/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Politics</title>
-      <link>https://2sheds.github.io/devops-site/categories/politics/</link>
-      <pubDate>Wed, 01 Nov 2017 16:23:40 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/categories/politics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Video</title>
-      <link>https://2sheds.github.io/devops-site/categories/video/</link>
-      <pubDate>Wed, 01 Nov 2017 16:23:40 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/categories/video/</guid>
       <description></description>
     </item>
     

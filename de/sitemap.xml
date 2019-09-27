@@ -208,76 +208,6 @@
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/de/tags/kilez-more/</loc>
-    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/tags/kilez-more/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/tags/kilez-more/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/video/kilez-more-leben-und-tod-des-imperialismus/</loc>
-    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/video/kilez-more-leben-und-tod-des-imperialismus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/video/kilez-more-leben-und-tod-des-imperialismus/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/categories/musik/</loc>
-    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/categories/politik/</loc>
-    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/categories/video/</loc>
-    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/categories/video/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/categories/video/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/de/video/</loc>
-    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/video/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/video/"
-                />
-  </url>
-  
-  <url>
     <loc>https://2sheds.github.io/devops-site/de/audio/</loc>
     <lastmod>2017-11-01T16:12:47+01:00</lastmod>
     <xhtml:link
@@ -289,6 +219,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://2sheds.github.io/devops-site/de/audio/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/de/tags/kilez-more/</loc>
+    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/tags/kilez-more/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/tags/kilez-more/"
                 />
   </url>
   
@@ -305,6 +250,11 @@
                 hreflang="de"
                 href="https://2sheds.github.io/devops-site/de/audio/kilez-more-new-world-order/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/de/categories/musik/</loc>
+    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
   </url>
   
   <url>
