@@ -11,23 +11,23 @@ jobs:
       HUGO_BUILD_DIR: /root/hugo/public/
     steps:
       - run: 
-          name: "Install git" 
-          command: apk update && apk add git
+          name: "Set up git environment" 
+          command: |
+            apk update && apk add git && 
+            # Set some variables to add to the commit message
+            git config --global user.email "oleg@kurapov.com" && git config --global user.name "CircleCI Bot"
       # checkout the repository
       - checkout:
-          name: "Clone git repository"
+          name: "Clone Github repository"
       - run: 
-          name: "Install git submodules for managing third-party dependencies"
+          name: "Set up build environment, download dependencies"
           command: git submodule sync && git submodule update --init
       - run: 
-          name: "Link the public dir to the gh-pages branch"
-          command: rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages
+          name: "Build static pages with Hugo"
+          command: | 
+            # Link the public dir to the gh-pages branch
+            rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages && 
+            cd hugo && HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
       - run: 
-          name: "Build with Hugo"
-          command: cd hugo && HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
-      - run:
-          name: "Set some variables to add to the commit message"
-          command: git config --global user.email "oleg@kurapov.com" && git config --global user.name "CircleCI Bot"
-      - run: 
-          name: "Push the generated files back to github"
+          name: "Deploy the generated files to Github for publishing"
           command: cd $HUGO_BUILD_DIR && git add --all && git commit -m "Automated publish to gh-pages [ci skip]" && git push
