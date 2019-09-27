@@ -1,13 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>/</link>
-    <description>Recent content on </description>
+    <title>My cool new Blog</title>
+    <link>https://2sheds.github.io/devops-site/</link>
+    <description>Recent content on My cool new Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Nov 2017 18:10:14 +0100</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://2sheds.github.io/devops-site/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Articles</title>
+      <link>https://2sheds.github.io/devops-site/article/</link>
+      <pubDate>Wed, 01 Nov 2017 18:10:14 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://2sheds.github.io/devops-site/gallery/</link>
+      <pubDate>Wed, 01 Nov 2017 18:01:26 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/gallery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://2sheds.github.io/devops-site/video/</link>
+      <pubDate>Wed, 01 Nov 2017 16:23:40 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audios</title>
+      <link>https://2sheds.github.io/devops-site/audio/</link>
+      <pubDate>Wed, 01 Nov 2017 16:12:47 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://2sheds.github.io/devops-site/link/</link>
+      <pubDate>Wed, 01 Nov 2017 13:05:27 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/link/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quotes</title>
+      <link>https://2sheds.github.io/devops-site/quote/</link>
+      <pubDate>Wed, 01 Nov 2017 13:01:14 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/quote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codes</title>
+      <link>https://2sheds.github.io/devops-site/code/</link>
+      <pubDate>Wed, 01 Nov 2017 09:31:27 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/code/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

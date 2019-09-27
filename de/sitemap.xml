@@ -3,397 +3,397 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/de/author/albert-einstein/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/author/albert-einstein/</loc>
     <lastmod>2017-12-01T14:40:32+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/quote/einstein-sinn-des-lebens/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/quote/einstein-sinn-des-lebens/</loc>
     <lastmod>2017-12-01T14:40:32+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/author/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/author/</loc>
     <lastmod>2017-12-01T14:40:32+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/author/"
+                href="https://2sheds.github.io/devops-site/author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/author/"
+                href="https://2sheds.github.io/devops-site/de/author/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/categories/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/categories/</loc>
     <lastmod>2017-12-01T14:40:32+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
+                href="https://2sheds.github.io/devops-site/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/categories/"
+                href="https://2sheds.github.io/devops-site/de/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/</loc>
     <lastmod>2017-12-01T14:40:32+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://2sheds.github.io/devops-site/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/"
+                href="https://2sheds.github.io/devops-site/de/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/quote/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/quote/</loc>
     <lastmod>2017-12-01T14:40:32+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/quote/"
+                href="https://2sheds.github.io/devops-site/quote/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/quote/"
+                href="https://2sheds.github.io/devops-site/de/quote/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/categories/zitate/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/categories/zitate/</loc>
     <lastmod>2017-12-01T14:40:32+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/article/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/article/</loc>
     <lastmod>2017-11-01T18:10:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/article/"
+                href="https://2sheds.github.io/devops-site/article/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/article/"
+                href="https://2sheds.github.io/devops-site/de/article/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/tags/discord/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/tags/discord/</loc>
     <lastmod>2017-11-01T18:10:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/discord/"
+                href="https://2sheds.github.io/devops-site/tags/discord/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/tags/discord/"
+                href="https://2sheds.github.io/devops-site/de/tags/discord/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/author/lednerb/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/author/lednerb/</loc>
     <lastmod>2017-11-01T18:10:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/author/lednerb/"
+                href="https://2sheds.github.io/devops-site/author/lednerb/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/author/lednerb/"
+                href="https://2sheds.github.io/devops-site/de/author/lednerb/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/tags/sag-danke/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/tags/sag-danke/</loc>
     <lastmod>2017-11-01T18:10:14+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/tags/support/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/tags/support/</loc>
     <lastmod>2017-11-01T18:10:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/support/"
+                href="https://2sheds.github.io/devops-site/tags/support/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/tags/support/"
+                href="https://2sheds.github.io/devops-site/de/tags/support/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/tags/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/tags/</loc>
     <lastmod>2017-11-01T18:10:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://2sheds.github.io/devops-site/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/tags/"
+                href="https://2sheds.github.io/devops-site/de/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/article/support-and-discussions/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/article/support-and-discussions/</loc>
     <lastmod>2017-11-01T18:10:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/article/support-and-discussions/"
+                href="https://2sheds.github.io/devops-site/article/support-and-discussions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/article/support-and-discussions/"
+                href="https://2sheds.github.io/devops-site/de/article/support-and-discussions/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/tags/eilean-donan-castle/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/tags/eilean-donan-castle/</loc>
     <lastmod>2017-11-01T18:01:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/eilean-donan-castle/"
+                href="https://2sheds.github.io/devops-site/tags/eilean-donan-castle/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/tags/eilean-donan-castle/"
+                href="https://2sheds.github.io/devops-site/de/tags/eilean-donan-castle/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/gallery/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/gallery/</loc>
     <lastmod>2017-11-01T18:01:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/gallery/"
+                href="https://2sheds.github.io/devops-site/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/gallery/"
+                href="https://2sheds.github.io/devops-site/de/gallery/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/tags/glennfinnan-viadukt/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/tags/glennfinnan-viadukt/</loc>
     <lastmod>2017-11-01T18:01:26+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/gallery/my-trip-to-scotland/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/gallery/my-trip-to-scotland/</loc>
     <lastmod>2017-11-01T18:01:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/gallery/my-trip-to-scotland/"
+                href="https://2sheds.github.io/devops-site/gallery/my-trip-to-scotland/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/gallery/my-trip-to-scotland/"
+                href="https://2sheds.github.io/devops-site/de/gallery/my-trip-to-scotland/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/categories/reise/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/categories/reise/</loc>
     <lastmod>2017-11-01T18:01:26+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/tags/schottland/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/tags/schottland/</loc>
     <lastmod>2017-11-01T18:01:26+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/categories/urlaub/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/categories/urlaub/</loc>
     <lastmod>2017-11-01T18:01:26+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/tags/kilez-more/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/tags/kilez-more/</loc>
     <lastmod>2017-11-01T16:23:40+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/kilez-more/"
+                href="https://2sheds.github.io/devops-site/tags/kilez-more/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/tags/kilez-more/"
+                href="https://2sheds.github.io/devops-site/de/tags/kilez-more/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/video/kilez-more-leben-und-tod-des-imperialismus/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/video/kilez-more-leben-und-tod-des-imperialismus/</loc>
     <lastmod>2017-11-01T16:23:40+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/video/kilez-more-leben-und-tod-des-imperialismus/"
+                href="https://2sheds.github.io/devops-site/video/kilez-more-leben-und-tod-des-imperialismus/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/video/kilez-more-leben-und-tod-des-imperialismus/"
+                href="https://2sheds.github.io/devops-site/de/video/kilez-more-leben-und-tod-des-imperialismus/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/categories/musik/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/categories/musik/</loc>
     <lastmod>2017-11-01T16:23:40+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/categories/politik/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/categories/politik/</loc>
     <lastmod>2017-11-01T16:23:40+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/de/categories/video/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/categories/video/</loc>
     <lastmod>2017-11-01T16:23:40+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/video/"
+                href="https://2sheds.github.io/devops-site/categories/video/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/categories/video/"
+                href="https://2sheds.github.io/devops-site/de/categories/video/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/video/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/video/</loc>
     <lastmod>2017-11-01T16:23:40+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/video/"
+                href="https://2sheds.github.io/devops-site/video/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/video/"
+                href="https://2sheds.github.io/devops-site/de/video/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/audio/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/audio/</loc>
     <lastmod>2017-11-01T16:12:47+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/audio/"
+                href="https://2sheds.github.io/devops-site/audio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/audio/"
+                href="https://2sheds.github.io/devops-site/de/audio/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/audio/kilez-more-new-world-order/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/audio/kilez-more-new-world-order/</loc>
     <lastmod>2017-11-01T16:12:47+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/audio/kilez-more-new-world-order/"
+                href="https://2sheds.github.io/devops-site/audio/kilez-more-new-world-order/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/audio/kilez-more-new-world-order/"
+                href="https://2sheds.github.io/devops-site/de/audio/kilez-more-new-world-order/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/tags/truth-rap/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/tags/truth-rap/</loc>
     <lastmod>2017-11-01T16:12:47+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/truth-rap/"
+                href="https://2sheds.github.io/devops-site/tags/truth-rap/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/tags/truth-rap/"
+                href="https://2sheds.github.io/devops-site/de/tags/truth-rap/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/page/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/page/</loc>
     <lastmod>2017-11-01T13:18:45+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/page/"
+                href="https://2sheds.github.io/devops-site/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/page/"
+                href="https://2sheds.github.io/devops-site/de/page/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/page/about-bilberry/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/page/about-bilberry/</loc>
     <lastmod>2017-11-01T13:18:45+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/page/about-bilberry/"
+                href="https://2sheds.github.io/devops-site/page/about-bilberry/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/page/about-bilberry/"
+                href="https://2sheds.github.io/devops-site/de/page/about-bilberry/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/de/page/github/</loc>
+    <loc>https://2sheds.github.io/devops-site/de/page/github/</loc>
     <lastmod>2017-11-01T13:17:56+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/page/github/"
+                href="https://2sheds.github.io/devops-site/page/github/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://example.com/de/page/github/"
+                href="https://2sheds.github.io/devops-site/de/page/github/"
                 />
   </url>
   
