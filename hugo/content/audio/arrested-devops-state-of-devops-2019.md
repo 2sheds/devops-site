@@ -1,6 +1,6 @@
 ---
 title: "Arrested DevOps: State of Devops 2019"
-date: 2019-09-30T08:14:17+01:00
+date: 2019-09-30T07:14:17+01:00
 
 featuredImage: ""
 categories: ['DevOps']
