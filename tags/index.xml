@@ -5,10 +5,46 @@
     <link>https://2sheds.github.io/devops-site/tags/</link>
     <description>Recent content in Tags on DevOps Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Sep 2019 07:14:17 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 16:49:30 +0100</lastBuildDate>
     
 	<atom:link href="https://2sheds.github.io/devops-site/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>circleci</title>
+      <link>https://2sheds.github.io/devops-site/tags/circleci/</link>
+      <pubDate>Mon, 30 Sep 2019 16:49:30 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/tags/circleci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://2sheds.github.io/devops-site/tags/github/</link>
+      <pubDate>Mon, 30 Sep 2019 16:49:30 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://2sheds.github.io/devops-site/tags/hugo/</link>
+      <pubDate>Mon, 30 Sep 2019 16:49:30 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://2sheds.github.io/devops-site/tags/markdown/</link>
+      <pubDate>Mon, 30 Sep 2019 16:49:30 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/tags/markdown/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>interview</title>
@@ -52,15 +88,6 @@
       <pubDate>Fri, 27 Sep 2019 17:23:40 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/tags/cicd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>circleci</title>
-      <link>https://2sheds.github.io/devops-site/tags/circleci/</link>
-      <pubDate>Fri, 27 Sep 2019 17:23:40 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/tags/circleci/</guid>
       <description></description>
     </item>
     

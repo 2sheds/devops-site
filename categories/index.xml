@@ -5,7 +5,7 @@
     <link>https://2sheds.github.io/devops-site/categories/</link>
     <description>Recent content in Categories on DevOps Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Sep 2019 07:14:17 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 16:49:30 +0100</lastBuildDate>
     
 	<atom:link href="https://2sheds.github.io/devops-site/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,9 +13,18 @@
     <item>
       <title>DevOps</title>
       <link>https://2sheds.github.io/devops-site/categories/devops/</link>
-      <pubDate>Mon, 30 Sep 2019 07:14:17 +0100</pubDate>
+      <pubDate>Mon, 30 Sep 2019 16:49:30 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HowTo</title>
+      <link>https://2sheds.github.io/devops-site/categories/howto/</link>
+      <pubDate>Mon, 30 Sep 2019 16:49:30 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/categories/howto/</guid>
       <description></description>
     </item>
     
