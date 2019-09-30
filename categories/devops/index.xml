@@ -5,10 +5,19 @@
     <link>https://2sheds.github.io/devops-site/categories/devops/</link>
     <description>Recent content in DevOps on DevOps Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 27 Sep 2019 17:23:40 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2019 18:30:14 +0100</lastBuildDate>
     
 	<atom:link href="https://2sheds.github.io/devops-site/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tommy Tynjä on CI culture</title>
+      <link>https://2sheds.github.io/devops-site/quote/ci-company-culture/</link>
+      <pubDate>Fri, 27 Sep 2019 18:30:14 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/quote/ci-company-culture/</guid>
+      <description>To successfully implement continuous delivery, you need to change the culture of how an entire organization views software development efforts.</description>
+    </item>
     
     <item>
       <title>Continuous Integration and Delivery with CircleCI</title>

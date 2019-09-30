@@ -5,10 +5,28 @@
     <link>https://2sheds.github.io/devops-site/tags/</link>
     <description>Recent content in Tags on DevOps Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 27 Sep 2019 17:23:40 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2019 18:30:14 +0100</lastBuildDate>
     
 	<atom:link href="https://2sheds.github.io/devops-site/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>culture</title>
+      <link>https://2sheds.github.io/devops-site/tags/culture/</link>
+      <pubDate>Fri, 27 Sep 2019 18:30:14 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organization</title>
+      <link>https://2sheds.github.io/devops-site/tags/organization/</link>
+      <pubDate>Fri, 27 Sep 2019 18:30:14 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/tags/organization/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cicd</title>
@@ -52,15 +70,6 @@
       <pubDate>Fri, 01 Dec 2017 14:40:32 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/tags/delivery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>organization</title>
-      <link>https://2sheds.github.io/devops-site/tags/organization/</link>
-      <pubDate>Fri, 01 Dec 2017 14:40:32 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/tags/organization/</guid>
       <description></description>
     </item>
     
