@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/audio/arrested-devops-state-of-devops-2019/</loc>
+    <lastmod>2019-09-30T07:14:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/audio/</loc>
+    <lastmod>2019-09-30T07:14:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/categories/</loc>
+    <lastmod>2019-09-30T07:14:17+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/categories/devops/</loc>
+    <lastmod>2019-09-30T07:14:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/</loc>
+    <lastmod>2019-09-30T07:14:17+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/interview/</loc>
+    <lastmod>2019-09-30T07:14:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/podcast/</loc>
+    <lastmod>2019-09-30T07:14:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/</loc>
+    <lastmod>2019-09-30T07:14:17+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/author/</loc>
+    <lastmod>2019-09-27T18:30:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/author/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/culture/</loc>
+    <lastmod>2019-09-27T18:30:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/organization/</loc>
+    <lastmod>2019-09-27T18:30:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/quote/</loc>
+    <lastmod>2019-09-27T18:30:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/categories/quotes/</loc>
+    <lastmod>2019-09-27T18:30:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/author/tommy-tynj%C3%A4/</loc>
+    <lastmod>2019-09-27T18:30:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/quote/ci-company-culture/</loc>
+    <lastmod>2019-09-27T18:30:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/cicd/</loc>
+    <lastmod>2019-09-27T17:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/circleci/</loc>
+    <lastmod>2019-09-27T17:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/video/circleci-cd/</loc>
+    <lastmod>2019-09-27T17:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/categories/video/</loc>
+    <lastmod>2019-09-27T17:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/video/</loc>
+    <lastmod>2019-09-27T17:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/change/</loc>
+    <lastmod>2019-09-25T15:36:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/author/charles-darwin/</loc>
+    <lastmod>2019-09-25T15:36:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/quote/darwin-survival/</loc>
+    <lastmod>2019-09-25T15:36:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/nature/</loc>
+    <lastmod>2019-09-25T15:36:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/delivery/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/author/stein-inge-morisbak/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/quote/roles-delivery/</loc>
+    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/page/github/</loc>
+    <lastmod>2017-11-01T13:17:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/page/</loc>
+    <lastmod>2017-11-01T13:17:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/automation/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/developers/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/author/scott-hanselman/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/quote/developers-automation/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</loc>
+    <lastmod>2017-05-09T16:12:47+01:00</lastmod>
+  </url>
+  
+</urlset>
