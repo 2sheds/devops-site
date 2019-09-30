@@ -27,7 +27,7 @@ jobs:
           command: | 
             # Link the public dir to the gh-pages branch
             rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages && 
-            cd hugo && HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+            cd hugo && HUGO_ENV=production hugo -v --buildFuture -d $HUGO_BUILD_DIR
       - run: 
           name: "Deploy the generated files to Github for publishing"
           command: cd $HUGO_BUILD_DIR && git add --all && git commit -m "Automated publish to gh-pages [ci skip]" && git push
