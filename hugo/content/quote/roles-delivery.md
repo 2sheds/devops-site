@@ -1,6 +1,6 @@
 ---
 title: "Stein Inge Morisbak on Delivery"
-date: 2017-12-01T14:40:32+01:00
+date: 2017-01-08T14:40:32+01:00
 
 categories: ['Quotes', 'DevOps']
 author: "Stein Inge Morisbak"
