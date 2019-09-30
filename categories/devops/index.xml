@@ -47,9 +47,18 @@
     </item>
     
     <item>
+      <title>DevOps Radio Episode 18: Meet Patrick Debois, the Father of DevOps</title>
+      <link>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</link>
+      <pubDate>Tue, 09 May 2017 16:12:47 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</guid>
+      <description>In this episode of DevOps Radio, Patrick Debois, CTO of Small Town Heroes and founder of DevOps Days, discusses his vision behind the unification of IT teams through DevOps and the worldwide growth of this cultural IT phenomenon.</description>
+    </item>
+    
+    <item>
       <title>Stein Inge Morisbak on Delivery</title>
       <link>https://2sheds.github.io/devops-site/quote/roles-delivery/</link>
-      <pubDate>Fri, 01 Dec 2017 14:40:32 +0100</pubDate>
+      <pubDate>Sun, 08 Jan 2017 14:40:32 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/quote/roles-delivery/</guid>
       <description>Any roles involved in a project that do not directly contribute toward the goal of putting valuable software in the hands of users as quickly as possible should be carefully considered.</description>
@@ -58,19 +67,10 @@
     <item>
       <title>Scott Hanselman on Automation</title>
       <link>https://2sheds.github.io/devops-site/quote/developers-automation/</link>
-      <pubDate>Wed, 01 Nov 2017 13:01:14 +0100</pubDate>
+      <pubDate>Sun, 01 Jan 2017 13:01:14 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/quote/developers-automation/</guid>
       <description>The most powerful tool we have as developers is automation.</description>
-    </item>
-    
-    <item>
-      <title>DevOps Radio Episode 18: Meet Patrick Debois, the Father of DevOps</title>
-      <link>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</link>
-      <pubDate>Tue, 09 May 2017 16:12:47 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</guid>
-      <description>In this episode of DevOps Radio, Patrick Debois, CTO of Small Town Heroes and founder of DevOps Days, discusses his vision behind the unification of IT teams through DevOps and the worldwide growth of this cultural IT phenomenon.</description>
     </item>
     
   </channel>

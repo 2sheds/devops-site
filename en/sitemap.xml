@@ -163,21 +163,6 @@
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/tags/delivery/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/author/stein-inge-morisbak/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/quote/roles-delivery/</loc>
-    <lastmod>2017-12-01T14:40:32+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://2sheds.github.io/devops-site/page/github/</loc>
     <lastmod>2017-11-01T13:17:56+01:00</lastmod>
   </url>
@@ -188,28 +173,43 @@
   </url>
   
   <url>
+    <loc>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</loc>
+    <lastmod>2017-05-09T16:12:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/delivery/</loc>
+    <lastmod>2017-01-08T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/author/stein-inge-morisbak/</loc>
+    <lastmod>2017-01-08T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/quote/roles-delivery/</loc>
+    <lastmod>2017-01-08T14:40:32+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://2sheds.github.io/devops-site/tags/automation/</loc>
-    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+    <lastmod>2017-01-01T13:01:14+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://2sheds.github.io/devops-site/tags/developers/</loc>
-    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+    <lastmod>2017-01-01T13:01:14+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://2sheds.github.io/devops-site/author/scott-hanselman/</loc>
-    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+    <lastmod>2017-01-01T13:01:14+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://2sheds.github.io/devops-site/quote/developers-automation/</loc>
-    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</loc>
-    <lastmod>2017-05-09T16:12:47+01:00</lastmod>
+    <lastmod>2017-01-01T13:01:14+01:00</lastmod>
   </url>
   
 </urlset>
