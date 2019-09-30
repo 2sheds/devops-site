@@ -1,5 +1,5 @@
 ---
-title: "DevOps Radio Episode 18: Meet Patrick Debois, the Father of DevOps"
+title: "Arrested DevOps: State of Devops 2019"
 date: 2019-09-30T08:14:17+01:00
 
 featuredImage: ""
