@@ -5,7 +5,7 @@
     <link>https://2sheds.github.io/devops-site/categories/</link>
     <description>Recent content in Categories on DevOps Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 27 Sep 2019 18:30:14 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 07:14:17 +0100</lastBuildDate>
     
 	<atom:link href="https://2sheds.github.io/devops-site/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>DevOps</title>
       <link>https://2sheds.github.io/devops-site/categories/devops/</link>
-      <pubDate>Fri, 27 Sep 2019 18:30:14 +0100</pubDate>
+      <pubDate>Mon, 30 Sep 2019 07:14:17 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/categories/devops/</guid>
       <description></description>
@@ -34,33 +34,6 @@
       <pubDate>Fri, 27 Sep 2019 17:23:40 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/categories/video/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy</title>
-      <link>https://2sheds.github.io/devops-site/categories/privacy/</link>
-      <pubDate>Wed, 01 Nov 2017 13:05:27 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/categories/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Code</title>
-      <link>https://2sheds.github.io/devops-site/categories/code/</link>
-      <pubDate>Wed, 01 Nov 2017 09:31:27 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/categories/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorials</title>
-      <link>https://2sheds.github.io/devops-site/categories/tutorials/</link>
-      <pubDate>Wed, 01 Nov 2017 09:31:27 +0100</pubDate>
-      
-      <guid>https://2sheds.github.io/devops-site/categories/tutorials/</guid>
       <description></description>
     </item>
     
