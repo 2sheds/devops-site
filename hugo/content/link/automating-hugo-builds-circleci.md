@@ -1,7 +1,6 @@
 ---
 title: "Automating Hugo Builds using Circleci"
-date: 2019-09-30T16:49:30+02:00
-draft: true
+date: 2019-09-30T16:49:30+01:00
 
 categories: ["HowTo", "DevOps"]
 tags: ["circleci", "hugo", "github", "markdown"]
