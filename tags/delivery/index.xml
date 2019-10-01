@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>delivery on DevOps Website</title><link>https://2sheds.github.io/devops-site/tags/delivery/</link><description>Recent content in delivery on DevOps Website</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 08 Jan 2017 14:40:32 +0100</lastBuildDate><atom:link href="https://2sheds.github.io/devops-site/tags/delivery/index.xml" rel="self" type="application/rss+xml"/><item><title>Stein Inge Morisbak on Delivery</title><link>https://2sheds.github.io/devops-site/quote/roles-delivery/</link><pubDate>Sun, 08 Jan 2017 14:40:32 +0100</pubDate><guid>https://2sheds.github.io/devops-site/quote/roles-delivery/</guid><description>Any roles involved in a project that do not directly contribute toward the goal of putting valuable software in the hands of users as quickly as possible should be carefully considered.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>delivery on DevOps Website</title>
+    <link>https://2sheds.github.io/devops-site/tags/delivery/</link>
+    <description>Recent content in delivery on DevOps Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 08 Jan 2017 14:40:32 +0100</lastBuildDate>
+    
+	<atom:link href="https://2sheds.github.io/devops-site/tags/delivery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stein Inge Morisbak on Delivery</title>
+      <link>https://2sheds.github.io/devops-site/quote/roles-delivery/</link>
+      <pubDate>Sun, 08 Jan 2017 14:40:32 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/quote/roles-delivery/</guid>
+      <description>Any roles involved in a project that do not directly contribute toward the goal of putting valuable software in the hands of users as quickly as possible should be carefully considered.</description>
+    </item>
+    
+  </channel>
+</rss>

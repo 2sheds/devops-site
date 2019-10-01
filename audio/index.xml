@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Audios on DevOps Website</title><link>https://2sheds.github.io/devops-site/audio/</link><description>Recent content in Audios on DevOps Website</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 30 Sep 2019 07:14:17 +0100</lastBuildDate><atom:link href="https://2sheds.github.io/devops-site/audio/index.xml" rel="self" type="application/rss+xml"/><item><title>Arrested DevOps: State of Devops 2019</title><link>https://2sheds.github.io/devops-site/audio/arrested-devops-state-of-devops-2019/</link><pubDate>Mon, 30 Sep 2019 07:14:17 +0100</pubDate><guid>https://2sheds.github.io/devops-site/audio/arrested-devops-state-of-devops-2019/</guid><description>In this episode, hosts Jessica Kerr and Matty Stratton are joined by guests Dr. Nicole Forsgren and Mr. Jez Humble, two of the authors of the 2019 Accelerate State of DevOps report.</description></item><item><title>DevOps Radio Episode 18: Meet Patrick Debois, the Father of DevOps</title><link>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</link><pubDate>Tue, 09 May 2017 16:12:47 +0100</pubDate><guid>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</guid><description>In this episode of DevOps Radio, Patrick Debois, CTO of Small Town Heroes and founder of DevOps Days, discusses his vision behind the unification of IT teams through DevOps and the worldwide growth of this cultural IT phenomenon.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audios on DevOps Website</title>
+    <link>https://2sheds.github.io/devops-site/audio/</link>
+    <description>Recent content in Audios on DevOps Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 30 Sep 2019 07:14:17 +0100</lastBuildDate>
+    
+	<atom:link href="https://2sheds.github.io/devops-site/audio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arrested DevOps: State of Devops 2019</title>
+      <link>https://2sheds.github.io/devops-site/audio/arrested-devops-state-of-devops-2019/</link>
+      <pubDate>Mon, 30 Sep 2019 07:14:17 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/audio/arrested-devops-state-of-devops-2019/</guid>
+      <description>In this episode, hosts Jessica Kerr and Matty Stratton are joined by guests Dr. Nicole Forsgren and Mr. Jez Humble, two of the authors of the 2019 Accelerate State of DevOps report.</description>
+    </item>
+    
+    <item>
+      <title>DevOps Radio Episode 18: Meet Patrick Debois, the Father of DevOps</title>
+      <link>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</link>
+      <pubDate>Tue, 09 May 2017 16:12:47 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/audio/devops-radio-18-patrick-debois/</guid>
+      <description>In this episode of DevOps Radio, Patrick Debois, CTO of Small Town Heroes and founder of DevOps Days, discusses his vision behind the unification of IT teams through DevOps and the worldwide growth of this cultural IT phenomenon.</description>
+    </item>
+    
+  </channel>
+</rss>
