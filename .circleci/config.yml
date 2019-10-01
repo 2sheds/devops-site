@@ -4,7 +4,11 @@ workflows:
   version: 2
   build:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
       - deploy:
           requires:
             - build
@@ -14,9 +18,6 @@ workflows:
 
 jobs:
   build:
-    branches:
-      ignore:
-        - gh-pages
     docker:
       - image: cibuilds/hugo:latest
     working_directory: ~/hugo
