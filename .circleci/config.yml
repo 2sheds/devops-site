@@ -48,7 +48,7 @@ jobs:
           paths: .
   deploy:
     docker:
-      - image: node:8.10.0
+      - image: node:8.16-alpine
     steps:
       - checkout
       - attach_workspace:
@@ -64,4 +64,4 @@ jobs:
             - "b7:e1:57:93:21:a2:0b:b3:51:f5:ab:0f:b5:92:cb:27"
       - run:
           name: Deploy the generated files to Github for publishing
-          command: gh-pages --dotfiles --message "Automated publish to gh-pages [ci skip]" --dist public
+          command: gh-pages --message "Automated publish to gh-pages [ci skip]" --dist public
