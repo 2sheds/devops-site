@@ -28,8 +28,6 @@ jobs:
       - persist_to_workspace:
           root: $HUGO_BUILD_DIR
           paths: .
-      - run: 
-          name: ""
   deploy:
     docker:
       - image: node:8.10.0
