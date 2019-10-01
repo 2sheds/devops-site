@@ -26,7 +26,7 @@ jobs:
           name: "Test generated HTML"
           command: htmlproofer $HUGO_BUILD_DIR --url-swap "^\/${CIRCLE_PROJECT_REPONAME}:" --allow-hash-href --check-html --empty-alt-ignore
       - persist_to_workspace:
-          root: $HUGO_BUILD_DIR
+          root: public
           paths: .
   deploy:
     docker:
