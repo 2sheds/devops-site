@@ -10,17 +10,11 @@ jobs:
     environment:
       HUGO_BUILD_DIR: /root/hugo/public/
     steps:
-      - run: 
-          name: "Set up git" 
-          command: |
-            apk update && apk add git && 
-            # Set some variables to add to the commit message
-            git config --global user.email "oleg@kurapov.com" && git config --global user.name "CircleCI Bot"
       # checkout the repository
       - checkout:
           name: "Clone Github repository"
       - run: 
-          name: "Set up build environment, download dependencies"
+          name: "Download 3rd-party dependencies"
           command: git submodule sync && git submodule update --init
       - run: 
           name: "Build static pages with Hugo"
@@ -28,6 +22,27 @@ jobs:
             # Link the public dir to the gh-pages branch
             rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages && 
             cd hugo && HUGO_ENV=production hugo -v --buildFuture -d $HUGO_BUILD_DIR
+      - run:
+          name: "Test generated HTML"
+          command: htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      - persist_to_workspace:
+          root: $HUGO_BUILD_DIR
+          paths: .
       - run: 
-          name: "Deploy the generated files to Github for publishing"
-          command: cd $HUGO_BUILD_DIR && git add --all && git commit -m "Automated publish to gh-pages [ci skip]" && git push
+          name: ""
+  deploy:
+    docker:
+      - image: node:8.10.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: public
+      - run:
+          name: Install and configure dependencies
+          command: |
+            npm install -g --silent gh-pages@2.0.1
+            git config user.email "oleg@kurapov.com"
+            git config user.name "CircleCI Bot"
+      - run:
+          name: Deploy the generated files to Github for publishing
+          command: gh-pages --dotfiles --message "Automated publish to gh-pages [ci skip]" --dist public
