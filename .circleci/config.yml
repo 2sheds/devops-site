@@ -1,4 +1,17 @@
 version: 2
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+
 jobs:
   build:
     branches:
@@ -15,13 +28,17 @@ jobs:
           name: "Clone Github repository"
       - run: 
           name: "Download 3rd-party dependencies"
-          command: git submodule sync && git submodule update --init
+          command: |
+            git submodule sync
+            git submodule update --init
       - run: 
           name: "Build static pages with Hugo"
           command: | 
             # Link the public dir to the gh-pages branch
-            rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages && 
-            cd hugo && HUGO_ENV=production hugo -v --buildFuture -d $HUGO_BUILD_DIR
+            rm -fr $HUGO_BUILD_DIR 
+            git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages 
+            cd hugo
+            HUGO_ENV=production hugo -v --buildFuture -d $HUGO_BUILD_DIR
       - run:
           name: "Test generated HTML"
           command: htmlproofer $HUGO_BUILD_DIR --url-swap "^\/${CIRCLE_PROJECT_REPONAME}:" --allow-hash-href --check-html --empty-alt-ignore
