@@ -63,8 +63,5 @@ jobs:
           fingerprints:
             - "b7:e1:57:93:21:a2:0b:b3:51:f5:ab:0f:b5:92:cb:27"
       - run:
-          name: Delete All SSH keys and Add the installed one
-          command: ssh-add -D && ssh-add ~/.ssh/id_rsa_b7e1579321a20bb351f5ab0fb592cb27
-      - run:
           name: Deploy the generated files to Github for publishing
           command: gh-pages --dotfiles --message "Automated publish to gh-pages [ci skip]" --dist public
