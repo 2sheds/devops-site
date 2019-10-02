@@ -57,9 +57,10 @@ jobs:
             npm install -g --silent gh-pages@2.0.1
             git config user.email "oleg@kurapov.com"
             git config user.name "CircleCI Bot"
+            git checkout origin/master .circleci/config.yml
       - add_ssh_keys:
           fingerprints:
             - "b7:e1:57:93:21:a2:0b:b3:51:f5:ab:0f:b5:92:cb:27"
       - run:
           name: Deploy the generated files to Github for publishing
-          command: gh-pages --message "Automated publish to gh-pages" --dist public
+          command: gh-pages --message "Automated publish to gh-pages [ci skip]" --dist public
