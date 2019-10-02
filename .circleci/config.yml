@@ -64,6 +64,8 @@ workflows:
             branches:
               ignore:
                 - gh-pages
+      - approve:
+          type: approval
       - deploy:
           requires:
             - build
