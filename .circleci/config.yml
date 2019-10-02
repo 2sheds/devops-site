@@ -31,6 +31,7 @@ jobs:
           command: |
             git submodule sync
             git submodule update --init
+            git checkout origin/master .circleci/config.yml
       - run: 
           name: "Build static pages with Hugo"
           command: | 
