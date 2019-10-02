@@ -39,7 +39,7 @@ jobs:
             HUGO_ENV=production hugo -v --buildFuture -d $HUGO_BUILD_DIR
       - run:
           name: "Test generated HTML"
-          command: htmlproofer $HUGO_BUILD_DIR --url-swap "^\/${CIRCLE_PROJECT_REPONAME}:" --allow-hash-href --check-html --empty-alt-ignore
+          command: htmlproofer $HUGO_BUILD_DIR --url-swap "^\/${CIRCLE_PROJECT_REPONAME}:" --allow-hash-href --check-html --empty-alt-ignore --disable-external
       - persist_to_workspace:
           name: "Persist output for next steps"
           root: public
