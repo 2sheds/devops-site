@@ -1,0 +1,67 @@
+version: 2
+
+workflows:
+  version: 2
+  demo:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    working_directory: ~/hugo
+    environment:
+      HUGO_BUILD_DIR: /root/hugo/public/
+    steps:
+      - checkout:
+          name: "Clone Github repository"
+      - run: 
+          name: "Download 3rd-party dependencies"
+          command: |
+            git submodule sync
+            git submodule update --init
+      - run: 
+          name: "Build static pages with Hugo"
+          command: | 
+            rm -fr $HUGO_BUILD_DIR
+            cd hugo
+            HUGO_ENV=production hugo -v --buildFuture -d $HUGO_BUILD_DIR
+      - run:
+          name: "Test generated HTML"
+          command: htmlproofer $HUGO_BUILD_DIR --url-swap "^\/${CIRCLE_PROJECT_REPONAME}:" --allow-hash-href --check-html --empty-alt-ignore
+      - persist_to_workspace:
+          name: "Persist output for next steps"
+          root: public
+          paths: .
+  deploy:
+    docker:
+      - image: node:8.10.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: public
+      - run:
+          name: Install and configure dependencies
+          command: |
+            npm install -g --silent gh-pages@2.0.1
+            git config user.email "oleg@kurapov.com"
+            git config user.name "CircleCI Bot"
+            git checkout origin/master .circleci/config.yml
+            mv .circleci public
+      - add_ssh_keys:
+          fingerprints:
+            - "b7:e1:57:93:21:a2:0b:b3:51:f5:ab:0f:b5:92:cb:27"
+      - run:
+          name: Deploy the generated files to Github for publishing
+          command: gh-pages --dotfiles --message "Automated publish to gh-pages [ci skip]" --dist public
