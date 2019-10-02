@@ -24,7 +24,6 @@ jobs:
     environment:
       HUGO_BUILD_DIR: /root/hugo/public/
     steps:
-      # checkout the repository
       - checkout:
           name: "Clone Github repository"
       - run: 
@@ -35,7 +34,6 @@ jobs:
       - run: 
           name: "Build static pages with Hugo"
           command: | 
-            # Link the public dir to the gh-pages branch
             rm -fr $HUGO_BUILD_DIR
             cd hugo
             HUGO_ENV=production hugo -v --buildFuture -d $HUGO_BUILD_DIR
