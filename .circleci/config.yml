@@ -65,10 +65,12 @@ workflows:
               ignore:
                 - gh-pages
       - approve:
+          requires: 
+            - build
           type: approval
       - deploy:
           requires:
-            - build
+            - approve
           filters:
             branches:
               only: master
