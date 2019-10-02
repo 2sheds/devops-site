@@ -49,6 +49,7 @@ jobs:
             git checkout origin/master .circleci/config.yml
             mv .circleci public
       - add_ssh_keys:
+          name: "Authenticate with GitHub"
           fingerprints:
             - "b7:e1:57:93:21:a2:0b:b3:51:f5:ab:0f:b5:92:cb:27"
       - run:
