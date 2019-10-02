@@ -19,7 +19,6 @@ jobs:
           name: "Build static pages with Hugo"
           command: | 
             rm -fr $HUGO_BUILD_DIR
-            cd hugo
             HUGO_ENV=production hugo -v --buildFuture -d $HUGO_BUILD_DIR
       - run:
           name: "Test generated HTML"
