@@ -63,4 +63,4 @@ jobs:
             - "b7:e1:57:93:21:a2:0b:b3:51:f5:ab:0f:b5:92:cb:27"
       - run:
           name: Deploy the generated files to Github for publishing
-          command: gh-pages --message "Automated publish to gh-pages [ci skip]" --dist public
+          command: gh-pages --message "Automated publish to gh-pages" --dist public
