@@ -2,7 +2,7 @@
 
 Agile web hosting with GitHub Pages.
 
-[![CircleCI](https://img.shields.io/circleci/build/github/2sheds/devops-site/master?label=builds&logo=circleci)](https://circleci.com/gh/2sheds/devops-site) [![GitHub pages](https://img.shields.io/website?down_message=offline&label=pages&logo=github&up_message=online&url=https%3A%2F%2F2sheds.github.io%2Fdevops-site%2F)](https://2sheds.github.io/devops-site/)
+[![CircleCI](https://img.shields.io/circleci/build/github/2sheds/devops-site/master?label=builds&logo=circleci)](https://circleci.com/gh/2sheds/devops-site) [![GitHub pages](https://img.shields.io/website?down_message=offline&label=pages&logo=github&up_message=online&url=https%3A%2F%2F2sheds.github.io%2Fdevops-site%2F)](https://2sheds.github.io/devops-site/) ![MIT License](https://img.shields.io/github/license/2sheds/devops-site?color=maroon&logo=open-source-initiative&logoColor=white)
 
 ## Description
 
