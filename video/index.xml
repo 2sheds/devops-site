@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Videos on DevOps Website</title>
@@ -25,7 +25,12 @@
       <pubDate>Fri, 27 Sep 2019 17:23:40 +0100</pubDate>
       
       <guid>https://2sheds.github.io/devops-site/video/circleci-cd/</guid>
-      <description>&lt;p&gt;Learn how CircleCI helps teams work better together through continuous integration and delivery. Run every commit through your automated pipeline and find problems quickly.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Learn how CircleCI helps teams work better together through continuous integration and delivery. Run every commit through your automated pipeline and find problems quickly, without delay.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item one&lt;/li&gt;
+&lt;li&gt;Item two&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;header-3&#34;&gt;Header 3&lt;/h3&gt;</description>
     </item>
     
   </channel>
