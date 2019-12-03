@@ -8,7 +8,12 @@ tags: ['circleci', 'cicd']
 # Set your video id for
 youtube: "b2l4zTS8lPg"
 ---
-Learn how CircleCI helps teams work better together through continuous integration and delivery. Run every commit through your automated pipeline and find problems quickly.
+Learn how CircleCI helps teams work better together through continuous integration and delivery. Run every commit through your automated pipeline and find problems quickly, without delay.
+
+- Item one
+- Item two
+
+### Header 3
 
 <!--more-->
 
