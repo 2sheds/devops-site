@@ -20,15 +20,15 @@
         <link rel="icon" type="image/png" href="https://2sheds.github.io/devops-site/favicon-16x16.png" sizes="16x16">
 
 	
-	  <link href="/devops-site/" rel="alternate" type="application/rss+xml" title="DevOps Website" />
-	  <link href="/devops-site/" rel="feed" type="application/rss+xml" title="DevOps Website" />
+	  <link href="https://2sheds.github.io/devops-site/" rel="alternate" type="application/rss+xml" title="DevOps Website" />
+	  <link href="https://2sheds.github.io/devops-site/" rel="feed" type="application/rss+xml" title="DevOps Website" />
 	
 
         
         
         
         
-        <link rel="stylesheet" href="/devops-site/sass/combined.min.7376f46bc9e0679d5aac75a0160bbe859fb2877d42f2e3a6fc63ca48c60dddba.css">
+        <link rel="stylesheet" href="https://2sheds.github.io/devops-site/sass/combined.min.7376f46bc9e0679d5aac75a0160bbe859fb2877d42f2e3a6fc63ca48c60dddba.css">
 
         
 
@@ -57,7 +57,7 @@
         <header>
     <div class="container">
         <div class="logo">
-            <a href="/devops-site" class="logo">
+            <a href="https://2sheds.github.io/devops-site/" class="logo">
                 
                     <img src="https://www.gravatar.com/avatar/d59ee1323c90f3ad41b70710557f3c28?d=mm&size=200" alt="">
                 
@@ -66,7 +66,7 @@
             </a>
         </div>
         <div class="titles">
-            <h3 class="title"><a href="/devops-site">DevOps Website</a></h3>
+            <h3 class="title"><a href="https://2sheds.github.io/devops-site/">DevOps Website</a></h3>
             
                 <span class="subtitle">Agile web hosting with GitHub Pages.</span>
             
@@ -115,9 +115,9 @@
         
             <span class="categories">
                 
-                    <a href="/devops-site/categories/devops">DevOps</a>
+                    <a href="https://2sheds.github.io/devops-site/categories/devops">DevOps</a>
                 
-                    <a href="/devops-site/categories/howto">Howto</a>
+                    <a href="https://2sheds.github.io/devops-site/categories/howto">Howto</a>
                 
             </span>
         
@@ -126,28 +126,13 @@
     </div>
 
     
-        <p><a href="/img/ci-cd-chart.png"><img src="/img/ci-cd-chart.png" alt="CI/CD chart"></a></p>
+        <p><a href="https://2sheds.github.io/devops-site/img/ci-cd-chart.png"><img src="https://2sheds.github.io/devops-site/img/ci-cd-chart.png" alt="CI/CD chart"></a></p>
 <p>This website is built from Markdown files using <a href="https://gohugo.io/">Hugo static website generator</a> and hosted by <a href="https://pages.github.com/">GitHub Pages</a>, a web hosting service of <a href="https://github.com/about">GitHub</a> platform.</p>
 <p>The CI (continuous integration) part of the pipeline is implemented with Hugo's <a href="https://gohugo.io/commands/hugo_server/">built-in webserver mode</a>. It will watch the files for any changes and automatically rebuild the site on-the-fly, even refreshing the web browser view for the user (this can be disabled).</p>
-<p>The CD (continuous deployment) portion is relying on <a href="https://circleci.com/">Circle CI</a> online platform which runs a 3-step workflow:</p>
-<h3 id="1-build">1. Build</h3>
-<ul>
-<li>Create a Dockerized instance of Hugo tool</li>
-<li>Pull the latest version of the website sources from the <code>master</code> branch in the project's GitHub repository</li>
-<li>Generate HTML/JS/CSS content with Hugo and preserve it in temporary storage</li>
-<li>Validate the generated artifacts using <code>htmlproofer</code> tool.</li>
-</ul>
-<h3 id="2-approve">2. Approve</h3>
-<ul>
-<li>Await approval from the maintainer for deployment</li>
-</ul>
-<h3 id="3-deploy">3. Deploy</h3>
-<ul>
-<li>Create a Docker container for GitHub Pages&rsquo; export tool</li>
-<li>Load the output of the &ldquo;Build&rdquo; stage</li>
-<li>Commit these generated files to a reserved <code>gh-pages</code> branch in the GitHub repository</li>
-</ul>
-<p>Once the contents are loaded into GitHub, they will replace the previous version of the website thus completing the deployment to production environment.</p>
+
+        
+            <a href="https://2sheds.github.io/devops-site/code/ci-cd-pipeline/" class="more">Continue reading</a>
+        
     
 </div>
 
@@ -160,13 +145,13 @@
             <i class="fa fa-tags"></i>
             <div class="links">
                 
-                    <a href="/devops-site/tags/cicd">cicd</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/cicd">cicd</a>
                 
-                    <a href="/devops-site/tags/circleci">circleci</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/circleci">circleci</a>
                 
-                    <a href="/devops-site/tags/github">github</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/github">github</a>
                 
-                    <a href="/devops-site/tags/hugo">hugo</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/hugo">hugo</a>
                 
             </div>
         </div>
@@ -217,8 +202,9 @@
     </div>
 
     
-        <p>A benchmark of Hugo generating a site with 5,000 posts on an SSD and spindle drive.</p>
+        A benchmark of Hugo generating a site with 5,000 posts on an SSD and spindle drive.
 
+        
     
 </div>
 
@@ -291,7 +277,7 @@
         
             <span class="categories">
                 
-                    <a href="/devops-site/categories/devops">DevOps</a>
+                    <a href="https://2sheds.github.io/devops-site/categories/devops">DevOps</a>
                 
             </span>
         
@@ -300,8 +286,9 @@
     </div>
 
     
-        <p>In this episode, hosts Jessica Kerr and Matty Stratton are joined by guests Dr. Nicole Forsgren and Mr. Jez Humble, two of the authors of the 2019 <a href="https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling">Accelerate State of DevOps report</a>.</p>
+        In this episode, hosts Jessica Kerr and Matty Stratton are joined by guests Dr. Nicole Forsgren and Mr. Jez Humble, two of the authors of the 2019 Accelerate State of DevOps report.
 
+        
     
 </div>
 
@@ -314,9 +301,9 @@
             <i class="fa fa-tags"></i>
             <div class="links">
                 
-                    <a href="/devops-site/tags/interview">interview</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/interview">interview</a>
                 
-                    <a href="/devops-site/tags/podcast">podcast</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/podcast">podcast</a>
                 
             </div>
         </div>
@@ -343,7 +330,7 @@
     <blockquote>
         <p>To successfully implement continuous delivery, you need to change the culture of how an entire organization views software development efforts.</p>
 
-        <cite><a href="/devops-site/author/tommy-tynj%C3%A4">Tommy Tynjä</a></cite>
+        <cite><a href="https://2sheds.github.io/devops-site/author/tommy-tynj%C3%A4">Tommy Tynjä</a></cite>
     </blockquote>
 </article>
 
@@ -384,9 +371,9 @@
         
             <span class="categories">
                 
-                    <a href="/devops-site/categories/video">Video</a>
+                    <a href="https://2sheds.github.io/devops-site/categories/video">Video</a>
                 
-                    <a href="/devops-site/categories/devops">DevOps</a>
+                    <a href="https://2sheds.github.io/devops-site/categories/devops">DevOps</a>
                 
             </span>
         
@@ -412,9 +399,9 @@
             <i class="fa fa-tags"></i>
             <div class="links">
                 
-                    <a href="/devops-site/tags/circleci">circleci</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/circleci">circleci</a>
                 
-                    <a href="/devops-site/tags/cicd">cicd</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/cicd">cicd</a>
                 
             </div>
         </div>
@@ -441,7 +428,7 @@
     <blockquote>
         <p>It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.</p>
 
-        <cite><a href="/devops-site/author/charles-darwin">Charles Darwin</a></cite>
+        <cite><a href="https://2sheds.github.io/devops-site/author/charles-darwin">Charles Darwin</a></cite>
     </blockquote>
 </article>
 
@@ -483,7 +470,7 @@
         
             <span class="categories">
                 
-                    <a href="/devops-site/categories/devops">DevOps</a>
+                    <a href="https://2sheds.github.io/devops-site/categories/devops">DevOps</a>
                 
             </span>
         
@@ -507,9 +494,9 @@
             <i class="fa fa-tags"></i>
             <div class="links">
                 
-                    <a href="/devops-site/tags/interview">interview</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/interview">interview</a>
                 
-                    <a href="/devops-site/tags/podcast">podcast</a>
+                    <a href="https://2sheds.github.io/devops-site/tags/podcast">podcast</a>
                 
             </div>
         </div>
@@ -536,7 +523,7 @@
     <blockquote>
         <p>Any roles involved in a project that do not directly contribute toward the goal of putting valuable software in the hands of users as quickly as possible should be carefully considered.</p>
 
-        <cite><a href="/devops-site/author/stein-inge-morisbak">Stein Inge Morisbak</a></cite>
+        <cite><a href="https://2sheds.github.io/devops-site/author/stein-inge-morisbak">Stein Inge Morisbak</a></cite>
     </blockquote>
 </article>
 
@@ -556,7 +543,7 @@
     <blockquote>
         <p>The most powerful tool we have as developers is automation.</p>
 
-        <cite><a href="/devops-site/author/scott-hanselman">Scott Hanselman</a></cite>
+        <cite><a href="https://2sheds.github.io/devops-site/author/scott-hanselman">Scott Hanselman</a></cite>
     </blockquote>
 </article>
 
@@ -611,23 +598,23 @@
 
         
         <div class="categories">
-            <a href="/devops-site/categories/"><strong>Categories</strong></a>
+            <a href="https://2sheds.github.io/devops-site/categories/"><strong>Categories</strong></a>
                 <ul>
                 
                     <li>
-                        <a href="/devops-site/categories/devops">Devops (9)</a>
+                        <a href="https://2sheds.github.io/devops-site/categories/devops">Devops (9)</a>
                     </li>
                 
                     <li>
-                        <a href="/devops-site/categories/quotes">Quotes (4)</a>
+                        <a href="https://2sheds.github.io/devops-site/categories/quotes">Quotes (4)</a>
                     </li>
                 
                     <li>
-                        <a href="/devops-site/categories/howto">Howto (2)</a>
+                        <a href="https://2sheds.github.io/devops-site/categories/howto">Howto (2)</a>
                     </li>
                 
                     <li>
-                        <a href="/devops-site/categories/video">Video (1)</a>
+                        <a href="https://2sheds.github.io/devops-site/categories/video">Video (1)</a>
                     </li>
                 
             </ul>
@@ -659,11 +646,11 @@
                     <strong>Other languages</strong>
                     
                         
-                            <a href="/devops-site/en" class="active">en</a>
+                            <a href="https://2sheds.github.io/devops-site/en" class="active">en</a>
                         
                     
                         
-                            <a href="/devops-site/de">de</a>
+                            <a href="https://2sheds.github.io/devops-site/de">de</a>
                         
                     
                 </div>
@@ -699,11 +686,11 @@
 
         
         
-        <script type="text/javascript" src="/devops-site/js/externalDependencies.cdd6888625d4a019ee659609c72ceffb55236e40637ea78a58dfda92bb466ea2.js" integrity="sha256-zdaIhiXUoBnuZZYJxyzv&#43;1UjbkBjfqeKWN/akrtGbqI="></script>
+        <script type="text/javascript" src="https://2sheds.github.io/devops-site/js/externalDependencies.cdd6888625d4a019ee659609c72ceffb55236e40637ea78a58dfda92bb466ea2.js" integrity="sha256-zdaIhiXUoBnuZZYJxyzv&#43;1UjbkBjfqeKWN/akrtGbqI="></script>
 
         
         
-        <script type="text/javascript" src="/devops-site/js/theme.4654b7979e5c207ce920e7ee52f8f636b675001c63c1bc659f218ba45ddfb8cf.js" integrity="sha256-RlS3l55cIHzpIOfuUvj2NrZ1ABxjwbxlnyGLpF3fuM8="></script>
+        <script type="text/javascript" src="https://2sheds.github.io/devops-site/js/theme.4654b7979e5c207ce920e7ee52f8f636b675001c63c1bc659f218ba45ddfb8cf.js" integrity="sha256-RlS3l55cIHzpIOfuUvj2NrZ1ABxjwbxlnyGLpF3fuM8="></script>
 
         <script>
             $(".moment").each(function() {
