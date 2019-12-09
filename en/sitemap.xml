@@ -3,8 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://2sheds.github.io/devops-site/categories/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/code/ci-cd-pipeline/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/cicd/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/circleci/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/code/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/categories/devops/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://2sheds.github.io/devops-site/</loc>
-    <lastmod>2019-10-02T11:22:46+02:00</lastmod>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -14,6 +54,36 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://2sheds.github.io/devops-site/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/github/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/categories/howto/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/hugo/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2sheds.github.io/devops-site/tags/</loc>
+    <lastmod>2019-12-09T13:45:27+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://2sheds.github.io/devops-site/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://2sheds.github.io/devops-site/tags/"
                 />
   </url>
   
@@ -33,46 +103,6 @@
   </url>
   
   <url>
-    <loc>https://2sheds.github.io/devops-site/categories/</loc>
-    <lastmod>2019-09-30T16:49:30+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/tags/circleci/</loc>
-    <lastmod>2019-09-30T16:49:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/categories/devops/</loc>
-    <lastmod>2019-09-30T16:49:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/tags/github/</loc>
-    <lastmod>2019-09-30T16:49:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/categories/howto/</loc>
-    <lastmod>2019-09-30T16:49:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/tags/hugo/</loc>
-    <lastmod>2019-09-30T16:49:30+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://2sheds.github.io/devops-site/link/</loc>
     <lastmod>2019-09-30T16:49:30+01:00</lastmod>
   </url>
@@ -80,21 +110,6 @@
   <url>
     <loc>https://2sheds.github.io/devops-site/tags/markdown/</loc>
     <lastmod>2019-09-30T16:49:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/tags/</loc>
-    <lastmod>2019-09-30T16:49:30+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://2sheds.github.io/devops-site/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2sheds.github.io/devops-site/tags/"
-                />
   </url>
   
   <url>
@@ -160,11 +175,6 @@
   <url>
     <loc>https://2sheds.github.io/devops-site/quote/ci-company-culture/</loc>
     <lastmod>2019-09-27T18:30:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2sheds.github.io/devops-site/tags/cicd/</loc>
-    <lastmod>2019-09-27T17:23:40+01:00</lastmod>
   </url>
   
   <url>

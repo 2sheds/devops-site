@@ -7,22 +7,22 @@
         <meta name="description" content="Agile web hosting with GitHub Pages.">
         <meta name="keywords" content="blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts">
         <meta name="generator" content="Hugo 0.60.1" />
-        <title> Tommy Tynjä on CI culture | DevOps Website</title>
-        <meta name="description" content="Tommy Tynjä on CI culture - Agile web hosting with GitHub Pages.">
-        <meta itemprop="name" content="Tommy Tynjä on CI culture">
-        <meta itemprop="description" content="Tommy Tynjä on CI culture - Agile web hosting with GitHub Pages.">
-        <meta property="og:title" content="Tommy Tynjä on CI culture">
-        <meta property="og:description" content="Tommy Tynjä on CI culture - Agile web hosting with GitHub Pages.">
+        <title> CI/CD pipeline used by this site | DevOps Website</title>
+        <meta name="description" content="CI/CD pipeline used by this site - Agile web hosting with GitHub Pages.">
+        <meta itemprop="name" content="CI/CD pipeline used by this site">
+        <meta itemprop="description" content="CI/CD pipeline used by this site - Agile web hosting with GitHub Pages.">
+        <meta property="og:title" content="CI/CD pipeline used by this site">
+        <meta property="og:description" content="CI/CD pipeline used by this site - Agile web hosting with GitHub Pages.">
         <meta property="og:image" content="https://www.gravatar.com/avatar/d59ee1323c90f3ad41b70710557f3c28?size=200">
-        <meta property="og:url" content="https://2sheds.github.io/devops-site/quote/ci-company-culture/">
+        <meta property="og:url" content="https://2sheds.github.io/devops-site/code/ci-cd-pipeline/">
         <meta property="og:site_name" content="DevOps Website">
         <meta property="og:type" content="article">
         <link rel="icon" type="image/png" href="https://2sheds.github.io/devops-site/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="https://2sheds.github.io/devops-site/favicon-16x16.png" sizes="16x16">
 
 	
-	  <link href="/devops-site/quote/ci-company-culture/" rel="alternate" type="application/rss+xml" title="DevOps Website" />
-	  <link href="/devops-site/quote/ci-company-culture/" rel="feed" type="application/rss+xml" title="DevOps Website" />
+	  <link href="/devops-site/code/ci-cd-pipeline/" rel="alternate" type="application/rss+xml" title="DevOps Website" />
+	  <link href="/devops-site/code/ci-cd-pipeline/" rel="feed" type="application/rss+xml" title="DevOps Website" />
 	
 
         
@@ -89,17 +89,87 @@
      
     <div class="article-wrapper u-cf single">
         
-            <a class="bubble" href="https://2sheds.github.io/devops-site/quote/ci-company-culture/">
-    <i class="fa fa-fw fa-quote-right"></i>
+            <a class="bubble" href="https://2sheds.github.io/devops-site/code/ci-cd-pipeline/">
+    <i class="fa fa-fw fa-code"></i>
 </a>
 
-<article class="quote">
+<article class="default article">
     
-    <blockquote>
-        <p>To successfully implement continuous delivery, you need to change the culture of how an entire organization views software development efforts.</p>
 
-        <cite><a href="/devops-site/author/tommy-tynj%C3%A4">Tommy Tynjä</a></cite>
-    </blockquote>
+    <div class="content">
+    <h3><a href="https://2sheds.github.io/devops-site/code/ci-cd-pipeline/">CI/CD pipeline used by this site</a></h3>
+    <div class="meta">
+        
+            
+                <span class="date moment">2019-12-09</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    <a href="/devops-site/categories/devops">DevOps</a>
+                
+                    <a href="/devops-site/categories/howto">Howto</a>
+                
+            </span>
+        
+
+        
+    </div>
+
+    
+        <p><a href="/img/ci-cd-chart.png"><img src="/img/ci-cd-chart.png" alt="CI/CD chart"></a></p>
+<p>This website is built from Markdown files using <a href="https://gohugo.io/">Hugo static website generator</a> and hosted by <a href="https://pages.github.com/">GitHub Pages</a>, a web hosting service of <a href="https://github.com/about">GitHub</a> platform.</p>
+<p>The CI (continuous integration) part of the pipeline is implemented with Hugo's <a href="https://gohugo.io/commands/hugo_server/">built-in webserver mode</a>. It will watch the files for any changes and automatically rebuild the site on-the-fly, even refreshing the web browser view for the user (this can be disabled).</p>
+<p>The CD (continuous deployment) portion is relying on <a href="https://circleci.com/">Circle CI</a> online platform which runs a 3-step workflow:</p>
+<h3 id="1-build">1. Build</h3>
+<ul>
+<li>Create a Dockerized instance of Hugo tool</li>
+<li>Pull the latest version of the website sources from the <code>master</code> branch in the project's GitHub repository</li>
+<li>Generate HTML/JS/CSS content with Hugo and preserve it in temporary storage</li>
+<li>Validate the generated artifacts using <code>htmlproofer</code> tool.</li>
+</ul>
+<h3 id="2-approve">2. Approve</h3>
+<ul>
+<li>Await approval from the maintainer for deployment</li>
+</ul>
+<h3 id="3-deploy">3. Deploy</h3>
+<ul>
+<li>Create a Docker container for GitHub Pages&rsquo; export tool</li>
+<li>Load the output of the &ldquo;Build&rdquo; stage</li>
+<li>Commit these generated files to a reserved <code>gh-pages</code> branch in the GitHub repository</li>
+</ul>
+<p>Once the contents are loaded into GitHub, they will replace the previous version of the website thus completing the deployment to production environment.</p>
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    <a href="/devops-site/tags/cicd">cicd</a>
+                
+                    <a href="/devops-site/tags/circleci">circleci</a>
+                
+                    <a href="/devops-site/tags/github">github</a>
+                
+                    <a href="/devops-site/tags/hugo">hugo</a>
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
 </article>
 
         

@@ -89,6 +89,94 @@
     
         <div class="article-wrapper u-cf">
             
+                <a class="bubble" href="https://2sheds.github.io/devops-site/code/ci-cd-pipeline/">
+    <i class="fa fa-fw fa-code"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h3><a href="https://2sheds.github.io/devops-site/code/ci-cd-pipeline/">CI/CD pipeline used by this site</a></h3>
+    <div class="meta">
+        
+            
+                <span class="date moment">2019-12-09</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    <a href="/devops-site/categories/devops">DevOps</a>
+                
+                    <a href="/devops-site/categories/howto">Howto</a>
+                
+            </span>
+        
+
+        
+    </div>
+
+    
+        <p><a href="/img/ci-cd-chart.png"><img src="/img/ci-cd-chart.png" alt="CI/CD chart"></a></p>
+<p>This website is built from Markdown files using <a href="https://gohugo.io/">Hugo static website generator</a> and hosted by <a href="https://pages.github.com/">GitHub Pages</a>, a web hosting service of <a href="https://github.com/about">GitHub</a> platform.</p>
+<p>The CI (continuous integration) part of the pipeline is implemented with Hugo's <a href="https://gohugo.io/commands/hugo_server/">built-in webserver mode</a>. It will watch the files for any changes and automatically rebuild the site on-the-fly, even refreshing the web browser view for the user (this can be disabled).</p>
+<p>The CD (continuous deployment) portion is relying on <a href="https://circleci.com/">Circle CI</a> online platform which runs a 3-step workflow:</p>
+<h3 id="1-build">1. Build</h3>
+<ul>
+<li>Create a Dockerized instance of Hugo tool</li>
+<li>Pull the latest version of the website sources from the <code>master</code> branch in the project's GitHub repository</li>
+<li>Generate HTML/JS/CSS content with Hugo and preserve it in temporary storage</li>
+<li>Validate the generated artifacts using <code>htmlproofer</code> tool.</li>
+</ul>
+<h3 id="2-approve">2. Approve</h3>
+<ul>
+<li>Await approval from the maintainer for deployment</li>
+</ul>
+<h3 id="3-deploy">3. Deploy</h3>
+<ul>
+<li>Create a Docker container for GitHub Pages&rsquo; export tool</li>
+<li>Load the output of the &ldquo;Build&rdquo; stage</li>
+<li>Commit these generated files to a reserved <code>gh-pages</code> branch in the GitHub repository</li>
+</ul>
+<p>Once the contents are loaded into GitHub, they will replace the previous version of the website thus completing the deployment to production environment.</p>
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    <a href="/devops-site/tags/cicd">cicd</a>
+                
+                    <a href="/devops-site/tags/circleci">circleci</a>
+                
+                    <a href="/devops-site/tags/github">github</a>
+                
+                    <a href="/devops-site/tags/hugo">hugo</a>
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+</article>
+
+            
+        </div>
+    
+        <div class="article-wrapper u-cf">
+            
                 <a class="bubble" href="https://willschenk.com/articles/2018/automating_hugo_with_circleci/" target="_blank">
     <i class="fa fa-fw fa-link"></i>
 </a>
@@ -239,12 +327,7 @@
     </div>
 
     
-        <p>Learn how CircleCI helps teams work better together through continuous integration and delivery. Run every commit through your automated pipeline and find problems quickly, without delay.</p>
-<ul>
-<li>Item one</li>
-<li>Item two</li>
-</ul>
-<h3 id="header-3">Header 3</h3>
+        <p>Learn how CircleCI helps teams work better together through continuous integration and delivery. Run every commit through your automated pipeline and find problems quickly, without delay or time off.</p>
 
         
             <a href="https://2sheds.github.io/devops-site/video/circleci-cd/" class="more">Continue reading</a>
@@ -426,6 +509,10 @@
                 <ul>
                 
                     <li>
+                        <a href="https://2sheds.github.io/devops-site/code/ci-cd-pipeline/">CI/CD pipeline used by this site</a>
+                    </li>
+                
+                    <li>
                         <a href="https://2sheds.github.io/devops-site/video/hugo-benchmark/">Hugo Benchmark</a>
                     </li>
                 
@@ -441,10 +528,6 @@
                         <a href="https://2sheds.github.io/devops-site/quote/ci-company-culture/">Tommy Tynjä on CI culture</a>
                     </li>
                 
-                    <li>
-                        <a href="https://2sheds.github.io/devops-site/video/circleci-cd/">Continuous Integration and Delivery with CircleCI</a>
-                    </li>
-                
                 </ul>
         </div>
         
@@ -455,7 +538,7 @@
                 <ul>
                 
                     <li>
-                        <a href="/devops-site/categories/devops">Devops (8)</a>
+                        <a href="/devops-site/categories/devops">Devops (9)</a>
                     </li>
                 
                     <li>
@@ -463,7 +546,7 @@
                     </li>
                 
                     <li>
-                        <a href="/devops-site/categories/howto">Howto (1)</a>
+                        <a href="/devops-site/categories/howto">Howto (2)</a>
                     </li>
                 
                     <li>

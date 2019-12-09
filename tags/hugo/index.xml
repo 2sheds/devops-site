@@ -5,10 +5,21 @@
     <link>https://2sheds.github.io/devops-site/tags/hugo/</link>
     <description>Recent content in hugo on DevOps Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Sep 2019 16:49:30 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Dec 2019 13:45:27 +0100</lastBuildDate>
     
 	<atom:link href="https://2sheds.github.io/devops-site/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CI/CD pipeline used by this site</title>
+      <link>https://2sheds.github.io/devops-site/code/ci-cd-pipeline/</link>
+      <pubDate>Mon, 09 Dec 2019 13:45:27 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/code/ci-cd-pipeline/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://2sheds.github.io/devops-site/img/ci-cd-chart.png&#34;&gt;&lt;img src=&#34;https://2sheds.github.io/devops-site/img/ci-cd-chart.png&#34; alt=&#34;CI/CD chart&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This website is built from Markdown files using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo static website generator&lt;/a&gt; and hosted by &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;, a web hosting service of &lt;a href=&#34;https://github.com/about&#34;&gt;GitHub&lt;/a&gt; platform.&lt;/p&gt;
+&lt;p&gt;The CI (continuous integration) part of the pipeline is implemented with Hugo&#39;s &lt;a href=&#34;https://gohugo.io/commands/hugo_server/&#34;&gt;built-in webserver mode&lt;/a&gt;. It will watch the files for any changes and automatically rebuild the site on-the-fly, even refreshing the web browser view for the user (this can be disabled).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Automating Hugo Builds using Circleci</title>
