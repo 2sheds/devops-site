@@ -1,6 +1,8 @@
 title = "DevOps Website"
 # Add a trailing slash to ensure that all fonts render correctly.
 baseURL = "https://2sheds.github.io/devops-site/"
+# Required for internal image links to work for non-root baseURL's
+canonifyURLs = true
 theme = "bilberry-hugo-theme"
 
 enableRobotsTXT = true
