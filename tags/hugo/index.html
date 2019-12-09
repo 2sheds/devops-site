@@ -124,10 +124,25 @@
         <p><a href="https://2sheds.github.io/devops-site/img/ci-cd-chart.png"><img src="https://2sheds.github.io/devops-site/img/ci-cd-chart.png" alt="CI/CD chart"></a></p>
 <p>This website is built from Markdown files using <a href="https://gohugo.io/">Hugo static website generator</a> and hosted by <a href="https://pages.github.com/">GitHub Pages</a>, a web hosting service of <a href="https://github.com/about">GitHub</a> platform.</p>
 <p>The CI (continuous integration) part of the pipeline is implemented with Hugo's <a href="https://gohugo.io/commands/hugo_server/">built-in webserver mode</a>. It will watch the files for any changes and automatically rebuild the site on-the-fly, even refreshing the web browser view for the user (this can be disabled).</p>
-
-        
-            <a href="https://2sheds.github.io/devops-site/code/ci-cd-pipeline/" class="more">Continue reading</a>
-        
+<p>The CD (continuous deployment) portion is relying on <a href="https://circleci.com/">Circle CI</a> online platform which runs a 3-step workflow:</p>
+<h3 id="1-build">1. Build</h3>
+<ul>
+<li>Create a Dockerized instance of Hugo tool</li>
+<li>Pull the latest version of the website sources from the <code>master</code> branch in the project's GitHub repository</li>
+<li>Generate HTML/JS/CSS content with Hugo and preserve it in temporary storage</li>
+<li>Validate the generated artifacts using <code>htmlproofer</code> tool.</li>
+</ul>
+<h3 id="2-approve">2. Approve</h3>
+<ul>
+<li>Await approval from the maintainer for deployment</li>
+</ul>
+<h3 id="3-deploy">3. Deploy</h3>
+<ul>
+<li>Create a Docker container for GitHub Pages&rsquo; export tool</li>
+<li>Load the output of the &ldquo;Build&rdquo; stage</li>
+<li>Commit these generated files to a reserved <code>gh-pages</code> branch in the GitHub repository</li>
+</ul>
+<p>Once the contents are loaded into GitHub, they will replace the previous version of the website thus completing the deployment to production environment.</p>
     
 </div>
 
