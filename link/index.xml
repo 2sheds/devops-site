@@ -5,10 +5,19 @@
     <link>https://2sheds.github.io/devops-site/link/</link>
     <description>Recent content in Links on DevOps Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Sep 2019 16:49:30 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 14:14:31 +0100</lastBuildDate>
     
 	<atom:link href="https://2sheds.github.io/devops-site/link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Team Meeting</title>
+      <link>https://2sheds.github.io/devops-site/link/team-meeting/</link>
+      <pubDate>Wed, 18 Dec 2019 14:14:31 +0100</pubDate>
+      
+      <guid>https://2sheds.github.io/devops-site/link/team-meeting/</guid>
+      <description>Here comes content.</description>
+    </item>
     
     <item>
       <title>Automating Hugo Builds using Circleci</title>
